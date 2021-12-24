@@ -1,8 +1,6 @@
 # Python scraper to collect movie data from IMDb and Wikipedia 
 
-This repo contains the script to obtain approximately 17k movies from IMDb and their corresponding plots from Wikipedia. The scraper makes use of BeautifulSoup and Wikipedia APIs and utilises multi-threading to decrease the run time.
-
-  
+This repo contains the script to obtain approximately 17k movies from IMDb and their corresponding plots from Wikipedia. The scraper makes use of BeautifulSoup and Wikipedia APIs and utilises multi-threading to decrease the run time. The final data is available in `movieData.csv`.
   
 
 ###  1. IMDb data - https://www.imdb.com  
