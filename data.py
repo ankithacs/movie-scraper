@@ -210,7 +210,7 @@ class DataExtraction:
 
         # Saving only those results which have a plot
         self.result = self.result[self.result['plot'].notna()]
-        self.result.to_csv('WikipediaData_v2.csv')
+        self.result.to_csv('movieData.csv')
 
 
 if __name__ == '__main__':
